@@ -68,21 +68,3 @@ python coco.py train --dataset=minicoco --model=logs/FDAC-NET_coco.h5
 python coco.py evaluate --dataset=minicoco --model=logs/FDAC-NET_coco.h5
 # 4. Run inference:
 python test.py
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
