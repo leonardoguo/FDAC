@@ -25,8 +25,8 @@ Package                 Version
 
 # ==================== DATASET STRUCTURE ====================
 """
-通过网盘分享的文件：minicoco
-链接: https://pan.baidu.com/s/1SyYSGVuHoLfYFJz3n6Bb2A 提取码: z1fj
+The MiniCOCO dataset used in this work is available at:
+- Baidu Netdisk: https://pan.baidu.com/s/1SyYSGVuHoLfYFJz3n6Bb2A (code: z1fj)
 minicoco/
 ├── train2017/           # Training set images
 ├── val2017/             # Validation set images
@@ -41,8 +41,8 @@ python coco.py train --dataset=minicoco --model=logs/FDAC-NET_coco.h5
 
 # ==================== MODEL EVALUATION ====================
 """
-通过网盘分享的文件：logs/FDAC-NET_coco.h5
-链接: https://pan.baidu.com/s/1BLEP8O_liR-G3q53gU5rHA 提取码: t899
+Pre-trained FDAC-NET weights (285 MB) are available at:
+- Baidu Netdisk: https://pan.baidu.com/s/1BLEP8O_liR-G3q53gU5rHA (access code: t899)
 # Evaluate model:
 python coco.py evaluate --dataset=minicoco --model=logs/FDAC-NET_coco.h5
 
@@ -66,6 +66,7 @@ python coco.py train --dataset=minicoco --model=logs/FDAC-NET_coco.h5
 python coco.py evaluate --dataset=minicoco --model=logs/FDAC-NET_coco.h5
 # 4. Run inference:
 python test.py
+
 
 
 
